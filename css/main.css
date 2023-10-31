@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.parent{
+    width: 90%;
+    background-color:red;
+    margin: 50px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+.parent .child{
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+}
+.parent .child .child1{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
